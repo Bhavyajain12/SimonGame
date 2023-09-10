@@ -2,7 +2,7 @@
 var buttonColours = ["red", "blue", "green", "yellow"];
 //(2)step 5 At the top of the game.js file, create a new empty array called gamePattern.
 gamePattern = [];
-//(2)step 1 Inside game.js create a new function called nextSequence()
+
 
 //(4)step 3 At the top of the game.js file, create a new empty array with the name userClickedPattern.
 userClickedPattern = [];
@@ -44,7 +44,7 @@ $(".btn").click(function(){
     //(8)step 2. Call checkAnswer() after a user has clicked and chosen their answer, passing in the index of the last answer in the user's sequence.
     checkAnswer(userClickedPattern.length-1);
 });
-
+//(2)step 1 Inside game.js create a new function called nextSequence()
 function nextSequence()
 {
     //(8)step 6. Once nextSequence() is triggered, reset the userClickedPattern to an empty array ready for the next level.
