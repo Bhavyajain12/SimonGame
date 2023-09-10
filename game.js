@@ -7,6 +7,7 @@ gamePattern = [];
 //(4)step 3 At the top of the game.js file, create a new empty array with the name userClickedPattern.
 userClickedPattern = [];
 
+// bhavya jain
 
 //(7)step 1(b).You'll need a way to keep track of whether if the game has started or not, so you only call nextSequence() on the first keypress.
 var started = false;
